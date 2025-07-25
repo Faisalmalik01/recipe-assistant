@@ -1,12 +1,40 @@
-# React + Vite
+# 🍽️ Recipe Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Discover global flavors in one sleek, responsive app built with **React**, **Vite**, and **Tailwind CSS**. Search by country, save your favorites, and explore community creations — designed for modern kitchens and curious food lovers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Key Features
 
-## Expanding the ESLint configuration
+- 🌍 Explore recipes by **country or cuisine**
+- 🔎 Search and filter from global database
+- ❤️ Save favorite recipes locally
+- 🧑‍🤝‍🧑 Browse community-submitted dishes
+- 📱 Fully responsive design with **dark mode**
+- 🔥 Modal-based recipe detail view
+- 📌 Persistent bottom navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+| Layer     | Tools |
+|-----------|-------|
+| Frontend  | React 19, React Router DOM |
+| Styling   | Tailwind CSS |
+| Build     | Vite |
+| Icons     | Lucide React |
+| Linting   | ESLint (with Hooks & Refresh plugins) |
+
+---
+
+## 🛠️ Getting Started
+
+Clone the repo and run locally:
+
+```bash
+git clone https://github.com/Faisalmalik01/recipe-assistant.git
+cd recipe-assistant
+npm install
+npm run dev
+

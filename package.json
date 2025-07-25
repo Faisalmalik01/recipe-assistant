@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "home" :
+  "homepage": " https://github.com/Faisalmalik01/recipe-assistant",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
