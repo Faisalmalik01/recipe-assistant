@@ -14,6 +14,7 @@ Discover global flavors in one sleek, responsive app built with **React**, **Vit
 - 🔥 Modal-based recipe detail view
 - 📌 Persistent bottom navigation
 
+
 ---
 
 ## ⚙️ Tech Stack

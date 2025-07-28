@@ -7,7 +7,7 @@ import App from "./App";
 import "./index.css";
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/recipe-assistant">
+ <BrowserRouter basename={import.meta.env.VITE_BASE_PATH}>
     <ThemeProvider>            
     <React.StrictMode>
       <App />
