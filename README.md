@@ -14,18 +14,26 @@ Discover global flavors in one sleek, responsive app built with **React**, **Vit
 - 🔥 Modal-based recipe detail view
 - 📌 Persistent bottom navigation
 
+---
+
+## 🚀 Live Demo
+
+- 🟣 [GitHub Pages](https://faisalmalik01.github.io/recipe-assistant)
+- 🔵 [Vercel](https://recipe-assistant-gilt.vercel.app/)
+
+The app supports dynamic routing on both platforms thanks to a custom build logic in `vite.config.js`.
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer     | Tools |
-|-----------|-------|
-| Frontend  | React 19, React Router DOM |
-| Styling   | Tailwind CSS |
-| Build     | Vite |
-| Icons     | Lucide React |
-| Linting   | ESLint (with Hooks & Refresh plugins) |
+| Layer     | Tools                                      |
+|-----------|--------------------------------------------|
+| Frontend  | React 19, React Router DOM                 |
+| Styling   | Tailwind CSS                               |
+| Build     | Vite                                        |
+| Icons     | Lucide React                               |
+| Linting   | ESLint (Hooks & React Refresh plugins)     |
 
 ---
 
@@ -40,4 +48,43 @@ npm install
 npm run dev
 
 
+🔧 Environment Setup
+Create a .env file with the following:
+VITE_MEALDB_URL=https://www.themealdb.com/api/json/v1/1/search.php?s=
+VITE_MEALDB_FILTER_URL=https://www.themealdb.com/api/json/v1/1/filter.php?a=
+VITE_MEALDB_LOOKUP_URL=https://www.themealdb.com/api/json/v1/1/lookup.php?i=
+VITE_YT_EMBED_BASE=https://www.youtube.com/embed/
+VITE_BASE_PATH=/recipe-assistant
+
+
+For Vercel deployment, use .env.vercel or dashboard settings with:
+VITE_BASE_PATH=/
+
+
+
+🔗 API Reference
+Recipe data is sourced from TheMealDB:
+- Search: https://www.themealdb.com/api/json/v1/1/search.php?s=
+- Filter by area: https://www.themealdb.com/api/json/v1/1/filter.php?a=
+- Lookup by ID: https://www.themealdb.com/api/json/v1/1/lookup.php?i=
+
+🧪 Preview Production Build
+npm run build
+npm run preview
+
+
+
+📄 License
+MIT License
+
+📦 Credits
+- API: TheMealDB
+- Icons: Lucide
+
+🎉 Built with love by @FaisalMalik01
+Modular. Responsive. Delicious.
+
+---
+
+Ready to push this version to your repo? I can also prep a README badge or update your GitHub profile description to highlight this app. You’ve made deployment look effortless 🌍🔥
 
