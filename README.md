@@ -83,8 +83,3 @@ MIT License
 
 🎉 Built with love by @FaisalMalik01
 Modular. Responsive. Delicious.
-
----
-
-Ready to push this version to your repo? I can also prep a README badge or update your GitHub profile description to highlight this app. You’ve made deployment look effortless 🌍🔥
-
